@@ -1,0 +1,15 @@
+{
+  "name": "torrent-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+"start" : "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "webtorrent": "^1.9.7"
+  }
+}
